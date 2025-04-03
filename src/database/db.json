@@ -1,0 +1,18 @@
+{
+  "employeedetails": [
+    {
+      "name": "rajiv",
+      "status": "manager",
+      "salary": 27000,
+      "address": "bhopal",
+      "id": "d489"
+    },
+    {
+      "id": "ac9d",
+      "name": "pooja",
+      "status": "state",
+      "salary": "2222",
+      "address": "pune"
+    }
+  ]
+}
