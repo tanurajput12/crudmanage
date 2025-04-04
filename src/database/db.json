@@ -1,18 +1,31 @@
 {
   "employeedetails": [
     {
-      "name": "rajiv",
-      "status": "manager",
-      "salary": 27000,
-      "address": "bhopal",
-      "id": "d489"
-    },
-    {
       "id": "ac9d",
       "name": "pooja",
       "status": "state",
       "salary": "2222",
       "address": "pune"
+    },
+    {
+      "id": "95bf",
+      "name": "fffra",
+      "status": "state",
+      "salary": "4566",
+      "address": "34bhi delhi"
+    },
+    {
+      "id": "dcf7"
+    },
+    {
+      "id": "8bad"
+    },
+    {
+      "id": "f71c",
+      "name": "neha chouhan",
+      "status": "deputy",
+      "salary": "25999",
+      "address": "vidisha"
     }
   ]
 }

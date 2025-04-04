@@ -1,11 +1,10 @@
-import Display from "./Display";
-import Insert from "./Insert";
+import Layout from "../Layout";
+
 
 const Home=()=>{
     return(
         <>
-        <Insert/>
-        <Display/>
+       <Layout/>
         </>
     )
 }

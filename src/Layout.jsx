@@ -1,18 +1,19 @@
-import { Link,Outlet } from "react-router-dom";
-import Home from "./pages/Home";
-import Insert from "./pages/Insert";
-import Display from "./pages/Display";
-const Layout=()=>{
-    return(
-        <>
-        <Link to={Home}>home</Link>
-        <Link to={Insert}>insert</Link>
-        <Link to={Display}>display</Link>
-        
+import { Link, Outlet } from "react-router-dom";
 
-        <Outlet/>
-       
+const Layout = () => {
+    return (
+        <>
+            <nav>
+                <Link to="/home">home</Link> 
+                <Link to="/insert">insert</Link> 
+                <Link to="/display">display</Link> 
+                <Link to="/search">search</Link>
+                <Link to="/update">update</Link>
+                <Link to="/edit" >edit</Link>
+            </nav>
+            <Outlet />
         </>
-    )
-}
+    );
+};
+
 export default Layout;
